@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    
+    html {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+body {
+    display: table-row;
+}
+#wrapper {
+    display: table-cell;
+    border: 2px solid gray;
+}
+    
+header {
+	margin-top: 0px; 
+	background:rgba(192,192,192,0.2);
+	height: 2rem;
+	vertical-align: middle;
+	transition:  height 2s;
+}
+.logo-type {
+	height: 2rem;
+}
+.logo-type img {
+	width: 100px;
+    margin-top: 4px; 
+}
+.gr_r {
+	 float:right;
+	 margin-right: 70px;
+	 height: 1.7rem;
+}
+.gr_l {
+	float: left;
+	margin-left: 70px;
+}
+.fa-bell:hover {
+	opacity: 1;
+}
+.button5:hover {
+	font-weight: 900;
+}
+
+.pointer {
+	cursor:pointer;
+}
+.center_blok {
+   bottom: 50%;
+   position: absolute;
+   width: 99%;
+}
+.center_blok  * {
+	width: 100%;
+	text-align: center;
+}
+
+.dropbtn {
+	font-size: 0.9rem;
+    background-color: rgb(237, 145, 33);
+    color: white;
+    padding: 16px;
+    border: none;
+}
+
+.dropdown {
+	font-size: 0.9rem;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    right: 10px;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 60px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 0.3em 0.5em;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content * {
+	padding: 5px;
+}
+
+.button5:focus  .dropdown-content {display: block;}
+.button {
+    background-color:rgba(237, 145, 33, 0.5);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 4px 4px;
+    cursor: pointer;
+}
+
+.button5 {
+	border-radius: 50%;
+	width: 1.25rem;
+	font-weight: 400;
+}
+
+.dissable {
+	opacity: 0.5;
+}
+.messages {
+	 position: absolute;
+     max-width: 250px;
+     bottom: 5px;
+     right: 5px;
+}
+#box2 {
+  margin: 10px;
+  border-radius: 5px;
+}
+
+#box2 td {
+	 padding: 3px;
+	 White-space: nowrap;
+}
+.alert {
+	 background-color: rgb(186,0,59);
+     color: white;
+     font-size: 10px;
+     padding: 5px;
+     opacity: .5;
+}
+.info {
+	 background-color: green;
+     color: white;
+     font-size: 10px;
+     padding: 5px;
+     opacity: .5;
+}
